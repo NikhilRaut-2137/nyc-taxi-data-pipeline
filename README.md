@@ -4,6 +4,7 @@ A complete data engineering pipeline that ingests and processes NYC Green Taxi t
 
 
 📦 Features
+
 ✅ Ingests monthly NYC Green Taxi .parquet files from public URL
 
 ✅ Stores raw data in Azure Data Lake (Bronze layer)
@@ -19,6 +20,7 @@ A complete data engineering pipeline that ingests and processes NYC Green Taxi t
 
 
 📂 Tech Stack
+
 Azure Data Factory – ETL orchestration
 
 Azure Data Lake Storage Gen2 – Data storage
@@ -34,7 +36,10 @@ GitHub – Version control
 
 
 📊 Pipeline Structure
-Layer	Description
-Bronze	Raw .parquet files ingested as-is
-Silver	Cleaned and filtered data
-Gold	Aggregated data ready for reporting
+
+| Layer  | Description                         |
+| ------ | ----------------------------------- |
+| Bronze | Raw `.parquet` files ingested as-is |
+| Silver | Cleaned and filtered data           |
+| Gold   | Aggregated data ready for reporting |
+
